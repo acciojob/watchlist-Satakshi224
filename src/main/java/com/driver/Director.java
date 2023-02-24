@@ -3,7 +3,7 @@ package com.driver;
 public class Director {
     private String name;
     private int numberOfMovies;
-    private int imdbRating;
+    private double imdbRating;
 
   public Director(){
 
@@ -24,16 +24,16 @@ public class Director {
         this.numberOfMovies = numberOfMovies;
     }
 
-    public int getImdbRating() {
+    public double getImdbRating() {
         return imdbRating;
     }
 
-    public void setImdbRating(int imdbRating) {
+    public void setImdbRating(double imdbRating) {
         this.imdbRating = imdbRating;
     }
 
 
-    public Director(String name, int numberOfMovies, int imdbRating) {
+    public Director(String name, int numberOfMovies, double imdbRating) {
         this.name = name;
         this.numberOfMovies = numberOfMovies;
         this.imdbRating = imdbRating;
